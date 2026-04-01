@@ -16,13 +16,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'pnpm' 
+          cache: 'npm' 
 
       - name: Install Dependencies
-        run: pnpm install
+        run: npm install
 
       - name: Build
-        run: pnpm run docs:build
+        run: npm run docs:build
         # 注意：确保你的项目配置了正确的 base 路径
         # 例如 Vite 项目需在 vite.config.js 设置 base: '/projectA/'
 
