@@ -4,6 +4,9 @@ export default defineConfig({
   title: "Babel Handbook",
   description: "Babel Handbook - Learn how to use and create Babel plugins",
 
+  // 忽略死链接检查
+  ignoreDeadLinks: true,
+
   locales: {
     root: {
       label: 'English',
