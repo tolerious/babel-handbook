@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Babel Handbook",
   description: "Babel Handbook - Learn how to use and create Babel plugins",
-  base: '/',
+  base: '/babel-handbook/',
   // 忽略死链接检查
   ignoreDeadLinks: true,
 
