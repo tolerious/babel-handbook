@@ -34,7 +34,7 @@ jobs:
           
           external_repository: tolerious/tolerious.github.io
           
-          publish_dir: .vitepress/dist/assets
+          publish_dir: .vitepress/dist/
           
           destination_dir: babel-handbook
           
