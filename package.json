@@ -1,0 +1,26 @@
+{
+  "name": "babel-handbook",
+  "version": "1.0.0",
+  "description": "> 深入学习 Babel - 使用和创建 JavaScript 编译器插件",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolerious/babel-handbook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/tolerious/babel-handbook/issues"
+  },
+  "homepage": "https://github.com/tolerious/babel-handbook#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
